@@ -7,18 +7,21 @@ Goal: Replicate OptIForest on AD data, then apply to Credit-Card Fraud and a syn
 
 Files:
 
-Replica.ipynb: Reproduces OptIForest on the original AD dataset with NumPy patch, baseline IsoForest, and metrics/plots.
-ExistingData(CreditCard).ipynb: Loads creditcard.csv, preprocesses, compares IsolationForest vs OptIForest, and visualises AUC-ROC/AUC-PR.
-NewData(CaliforniaHousing).ipynb: Builds a synthetic anomaly set from California Housing, runs both models, and reports side-by-side metrics/plots.
+1) Replica.ipynb: Reproduces OptIForest on the original AD dataset with NumPy patch, baseline IsoForest, and metrics/plots.
 
-requirements.txt 
+2) ExistingData(CreditCard).ipynb: Loads creditcard.csv, preprocesses, compares IsolationForest vs OptIForest, and visualises AUC-ROC/AUC-PR.
 
-README.md
+3) NewData(CaliforniaHousing).ipynb: Builds a synthetic anomaly set from California Housing, runs both models, and reports side-by-side metrics/plots.
+
+4) requirements.txt 
+
+5) README.md
 
 
 How to run (Colab):
 
 Open a notebook → run the first setup cell (safe clone + NumPy patch). 
+
 For credit-card, upload creditcard.csv when prompted. Run all cells.
 
 
