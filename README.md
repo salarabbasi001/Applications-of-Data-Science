@@ -10,8 +10,11 @@ Files:
 Replica.ipynb: Reproduces OptIForest on the original AD dataset with NumPy patch, baseline IsoForest, and metrics/plots.
 ExistingData(CreditCard).ipynb: Loads creditcard.csv, preprocesses, compares IsolationForest vs OptIForest, and visualises AUC-ROC/AUC-PR.
 NewData(CaliforniaHousing).ipynb: Builds a synthetic anomaly set from California Housing, runs both models, and reports side-by-side metrics/plots.
+
 requirements.txt 
+
 README.md
+
 
 How to run (Colab):
 
